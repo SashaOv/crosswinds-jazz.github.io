@@ -1,0 +1,41 @@
+- title: Crosswinds
+  hero: >
+    (TODO) Crosswinds is a jazz band based in the San Francisco Bay Area. The band was
+    formed in 2010 by saxophonist Norm and guitarist Ricardo, who had been
+    playing together in various local groups for several years. They were joined
+    by pianist Ina, bassist Sasha, and drummer Peter, who completed the lineup.
+
+    Crosswinds is known for their energetic live performances and their ability
+    to connect with audiences through their music. They continue to evolve their
+    sound and explore new musical territories while staying true to their jazz
+    roots.
+  content:
+    - title: Norm - Saxophones, flute
+      text: (TODO) The bio blurb about Norm
+      photo: assets/25-12-28.Norm.JPG
+      audio:
+        - title: I Can't Help It
+          source: assets/I Cant Help It.mp3
+    - title: Ricardo - Guitar
+      text: (TODO) The bio blurb about Ricardo
+      photo: assets/25-12-28.Ricardo.JPG
+      audio:
+        - title: Red Baron
+          source: assets/Red Baron.mp3
+    - title: Ina - Piano
+      text: (TODO) The bio blurb about Ina
+      photo: assets/Ina_4.cropped.jpeg
+
+    - title: Sasha - Bass
+      text: >
+        Sasha began taking violin lessons as a child. As a teenager, he happened
+        to start playing bass in a rock band—and quickly got hooked. He later
+        studied at a jazz college in Moscow. Although his professional career
+        has been in software, he has continued to perform on professional stages
+        in the countries where he has lived. Today, he plays jazz and world
+        music in the Bay Area.
+      photo: assets/Sasha-BlueNoteLounge_Feb2015-35.jpg
+      
+    - title: Peter - Drums
+      text: (TODO) The bio blurb about Peter
+      photo: assets/Peter.picture-13.jpg

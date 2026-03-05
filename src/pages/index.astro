@@ -1,0 +1,22 @@
+---
+import Layout from '../layouts/Layout.astro';
+import InfoSection from '../components/InfoSection.svelte';
+import { getHomeContent } from '../lib/content';
+
+const home = getHomeContent();
+---
+
+<Layout title="Home">
+  <div class="page-sections">
+    {home.content.map((item, i) => (
+      <InfoSection item={item} flip={i % 2 !== 0} client:load />
+    ))}
+  </div>
+</Layout>
+
+<style>
+  .page-sections {
+    display: flex;
+    flex-direction: column;
+  }
+</style>

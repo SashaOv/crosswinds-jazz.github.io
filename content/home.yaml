@@ -1,0 +1,20 @@
+- title: Home
+  content:
+  - text: >
+      We are a San Francisco Bay Area Jazz Fusion group consisting of seasoned
+      jazz musicians who respect and love modern jazz from bebop to fusion.
+      Our sound reflects deep roots in complex jazz harmony while embracing
+      modern funk and Latin sounds.
+    photo: assets/25-10-04.after-show.jpg
+    audio:
+      - title: I Can't Help It
+        source: assets/I Cant Help It.mp3
+
+  - text: >
+      We specialize in creating captivating jazz fusion music. Join us as we
+      journey through unique rhythms and melodies that aim to entertain and
+      inspire.
+    photo: assets/26-02-15.Studio.JPG
+    audio:
+      - title: Red Baron
+        source: assets/Red Baron.mp3

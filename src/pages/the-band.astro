@@ -1,0 +1,43 @@
+---
+import Layout from '../layouts/Layout.astro';
+import InfoSection from '../components/InfoSection.svelte';
+import { getTheBandContent } from '../lib/content';
+
+const band = getTheBandContent();
+---
+
+<Layout title={band.title}>
+  {band.hero && (
+    <div class="hero-block">
+      <p class="hero-text">{band.hero}</p>
+    </div>
+  )}
+
+  <div class="page-sections">
+    {band.content.map((item, i) => (
+      <InfoSection item={item} flip={i % 2 !== 0} client:load />
+    ))}
+  </div>
+</Layout>
+
+<style>
+  .hero-block {
+    max-width: var(--section-max-width);
+    margin: 0 auto;
+    padding: var(--space-16) var(--space-8) 0;
+  }
+
+  .hero-text {
+    font-size: var(--text-lg);
+    color: var(--color-text);
+    line-height: 1.8;
+    border-left: 3px solid var(--color-accent);
+    padding-left: var(--space-6);
+    white-space: pre-line;
+  }
+
+  .page-sections {
+    display: flex;
+    flex-direction: column;
+  }
+</style>
