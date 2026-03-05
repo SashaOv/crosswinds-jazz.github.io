@@ -71,13 +71,20 @@
     margin-top: var(--space-2);
   }
 
+  .photo-col {
+    display: flex;
+    justify-content: center;
+  }
+
   .section-photo {
-    width: 100%;
     max-width: var(--photo-width);
-    aspect-ratio: 4 / 3;
-    object-fit: cover;
+    max-height: 360px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
     border-radius: var(--radius-lg);
     border: 1px solid var(--color-border);
+    box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.5);
   }
 
   /* Mobile: stack, photo below text */

@@ -130,6 +130,7 @@
     display: flex;
     flex-direction: column;
     gap: var(--space-3);
+    box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.5);
   }
 
   .track-title {

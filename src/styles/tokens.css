@@ -4,8 +4,8 @@
 
 :root {
   /* --- Colors ------------------------------------------------ */
-  --color-bg:           #0d0d0d;
-  --color-bg-surface:   #1a1a1a;
+  --color-bg:           #204579;
+  --color-bg-surface:   #6f5e9f;
   --color-bg-overlay:   rgba(0, 0, 0, 0.75);
 
   --color-text:         #f0ece4;
@@ -20,8 +20,9 @@
   --color-success:      #5cb85c;
 
   /* --- Typography -------------------------------------------- */
-  --font-body:    'Georgia', 'Times New Roman', serif;
-  --font-ui:      'Inter', 'Helvetica Neue', Arial, sans-serif;
+  --font-heading: 'Bebas Neue', 'Impact', sans-serif;
+  --font-body:    'Lora', 'Georgia', serif;
+  --font-ui:      'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
 
   --text-sm:   0.875rem;   /* 14px */
   --text-base: 1rem;       /* 16px */

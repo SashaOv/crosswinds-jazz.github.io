@@ -17,7 +17,10 @@ const { title, description = 'Crosswinds Jazz Band – San Francisco Bay Area' }
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
-    <link rel="icon" type="image/png" href="/assets/logo-transparent.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@0,400;0,600;1,400&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="/assets/logo.png" />
     <title>{title} | Crosswinds Jazz</title>
   </head>
   <body>
@@ -51,6 +54,12 @@ const { title, description = 'Crosswinds Jazz Band – San Francisco Bay Area' }
     max-width: 100%;
     height: auto;
     display: block;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
   }
 
   a {
