@@ -17,7 +17,7 @@
     {/if}
     {#if firstTrack}
       <div class="player-wrap">
-        <DemoPlayer title={firstTrack.title ?? ''} source={`/${firstTrack.source}`} />
+        <DemoPlayer title={firstTrack.title ?? ''} source={`${import.meta.env.BASE_URL}/${firstTrack.source}`} />
       </div>
     {/if}
   </div>
@@ -25,7 +25,7 @@
   <div class="photo-col">
     {#if item.photo}
       <img
-        src={`/${item.photo}`}
+        src={`${import.meta.env.BASE_URL}/${item.photo}`}
         alt={item.title ?? 'Band photo'}
         class="section-photo"
         loading="lazy"
